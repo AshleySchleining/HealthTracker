@@ -1,6 +1,8 @@
 // Flutter imports:
 import 'package:flutter/material.dart';
 import 'package:health_tracker/src/presentation/pages/main_page.dart';
+import 'package:localizations/localizations.dart';
+import 'package:theme_data/theme_data.dart';
 
 class App extends StatelessWidget {
   final MainPageFactory mainPageFactory;

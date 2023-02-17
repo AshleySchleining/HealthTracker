@@ -1,15 +1,11 @@
 // Flutter imports:
 import 'package:flutter/material.dart';
-
-// Package imports:
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:health_tracker/src/presentation/blocs/counter_cubit.dart';
+import 'package:health_tracker/src/presentation/blocs/counter_state.dart';
 import 'package:localizations/localizations.dart';
 import 'package:provider/provider.dart';
-
-// Project imports:
-import 'package:flutter_app_template/src/configuration/environment/environment.dart';
-import 'package:flutter_app_template/src/presentation/blocs/counter_cubit.dart';
-import 'package:flutter_app_template/src/presentation/blocs/counter_state.dart';
+import 'package:health_tracker/src/configuration/environment/environment.dart';
 
 typedef MainPageFactory = MainPage Function();
 

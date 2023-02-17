@@ -1,9 +1,7 @@
 // Flutter imports:
 import 'package:flutter/material.dart';
-
-// Project imports:
-import 'package:flutter_app_template/src/presentation/widgets/layout/device_type.dart';
-import 'package:flutter_app_template/src/presentation/widgets/layout/sizing_information.dart';
+import 'package:health_tracker/src/presentation/widgets/layout/device_type.dart';
+import 'package:health_tracker/src/presentation/widgets/layout/sizing_information.dart';
 
 class ResponsiveBuilder extends StatelessWidget {
   final Widget Function(

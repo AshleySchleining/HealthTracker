@@ -1,4 +1,5 @@
-
+import 'package:core/core.dart';
+import 'package:equatable/equatable.dart';
 
 abstract class CounterState extends Equatable {}
 

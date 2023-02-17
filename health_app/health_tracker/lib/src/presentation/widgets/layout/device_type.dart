@@ -1,8 +1,6 @@
 // Flutter imports:
 import 'package:flutter/material.dart';
-
-// Project imports:
-import 'package:flutter_app_template/src/core/constants.dart';
+import 'package:health_tracker/src/core/constants.dart';
 
 enum DeviceType { mobile, tablet, desktop }
 

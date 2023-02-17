@@ -32,8 +32,17 @@ dependencies:
   equatable: ^2.0.5
   dartz: ^0.10.1
 
+  localizations:
+    path: ../localizations
+
   core:
     path: ../core
+
+  theme_data:
+    path: ../theme_data
+
+  logger:
+    path: ../logger
 
 dev_dependencies:
   flutter_test:

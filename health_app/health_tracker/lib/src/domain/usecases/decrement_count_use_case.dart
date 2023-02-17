@@ -2,8 +2,7 @@
 import 'package:core/core.dart';
 import 'package:dartz/dartz.dart';
 
-// Project imports:
-import 'package:flutter_app_template/src/domain/services/counter_service.dart';
+import 'package:health_tracker/src/domain/services/counter_service.dart';
 
 class DecrementCountUseCase {
   final CounterService counterService;

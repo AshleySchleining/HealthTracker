@@ -1,6 +1,7 @@
 // Flutter imports:
 import 'package:flutter/material.dart';
-
+import 'package:health_tracker/src/presentation/widgets/layout/device_type.dart';
+import 'package:health_tracker/src/presentation/widgets/layout/responsive_builder.dart';
 
 class DeviceTypeLayout extends StatelessWidget {
   final WidgetBuilder mobileFcn;
